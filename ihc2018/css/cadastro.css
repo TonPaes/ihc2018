@@ -1,0 +1,125 @@
+html {
+    height: 100% !important;
+}
+
+body {
+    min-height: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+.site-row {
+    display: flex;
+    max-height: 100vh;
+    justify-content: center;
+}
+
+.site-column {
+    display: flex !important;
+    flex-direction: column;
+}
+
+#formLog {
+    display: block;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-color: white;
+}
+
+#formCad {
+    display: block;
+    padding: 25px;
+    background-color: white;
+}
+
+.border {
+    border-color: rgb(221, 221, 221) !important;
+    border-radius: 2px;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.divrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 5px;
+}
+
+.divesq {
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+}
+
+.wrap {
+    flex-grow:1;
+}
+
+.logo {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo > a > img {
+    margin-top: 40px;
+    width: 68px;
+}
+
+#barravertical {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-right: 1px solid rgb(151, 151, 151)
+}
+
+.botaocad {
+    width: 80px;
+}
+
+#vouc {
+    width: 60%
+}
+
+#foot, .card-footer {
+    font-size: 12px;
+}
+
+.card-footer {
+    margin-top: 20px;
+    background-color: rgb(218, 218, 218);
+}
+
+.textoLogin {
+    margin-bottom: -10px;
+}
+
+#organizacao {
+    width: 100%;
+}
+
+#cadSalvar {
+    margin-top: 15px;
+}
+
+#erroLogin {
+    background-color: rgb(255, 0, 0) !important;
+    opacity: 0.6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.erro_login {
+    opacity: 1.0;
+}
+
+.footerCustom {
+    margin-right: 15px;
+}

@@ -1,0 +1,24 @@
+> Esqueceu
+mudar o tamanho do modal
+arrumar mensagens de erro
+> Cadastrar
+falta PHP
+
+Ton:
+>Mudei algumas coisas quanto a organização do código, todas as partes 
+que estavam sendo repetidas eu coloquei como includes (ainda tem mais pra
+fazer), e tbm pra que qualquer atualização nessas partes seja global, sem
+precisar de Ctrl+c/v. foi mudado:
+header externo(quando não ta logago)
+header interno
+session
+login
+nav 
+
+>Arrumei uns bugs menores, como variaveis indefinidas em alguns casos,
+e referencias pra objetos que não existiam.
+>Todas as minhas mudanças estão numa branch, porque são um pouco grandes,
+e pra ver se vcs gostam do estilo como o código ta organizado agora.
+
+
+
